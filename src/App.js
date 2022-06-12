@@ -1,15 +1,17 @@
-import React, { useContext } from "react";
+import React, { useContext, useReducer } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { UserContext } from "./context/User";
 import HomePage from "./Pages/Home";
 import LoginPage from "./Pages/Login";
 import RegisterPage from "./Pages/Register";
+import { queueReducer } from "./Reducer/Reducer";
 
 import './App.css';
 
 function App() {
 
   const { currentUser } = useContext(UserContext);
+  const [currentQueue, queueDispatch] = useReducer(queueReducer, []);
 
   console.log(!currentUser)
 
@@ -21,7 +23,7 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           {!!currentUser ?
             <>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<HomePage queue={{ queueDispatch, currentQueue }} />} />
             </>
             :
             <>

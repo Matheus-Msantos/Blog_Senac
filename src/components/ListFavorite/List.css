@@ -1,0 +1,57 @@
+.cosmo-favorite-container {
+  position: fixed;
+  background: var(--grey);
+  width: 250px;
+  padding: 20px;
+  border-radius: 4px;
+  right: 15px;
+  bottom: 25px;
+  opacity: 0.1;
+  transition: 0.2s;
+}
+
+.cosmo-favorite-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cosmo-favorite-title--blue {
+  color: var(--blue);
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.cosmo-favorite-container:hover {
+  transition: 0.2s;
+  opacity: 1;
+  box-shadow: 5px 5px 21px -2px var(--blue);
+}
+
+.cosmo-favorite-list {
+  position: relative;
+}
+
+.cosmo-favorite-text {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--blue);
+  padding-right: 11px;
+}
+
+.cosmo-favorite-button--remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.cosmo-favorite-button--remove i {
+  color: var(--red);
+}
