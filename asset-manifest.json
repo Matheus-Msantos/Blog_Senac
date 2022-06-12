@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Blog_Senac/static/css/main.6c1ac0f1.css",
-    "main.js": "/Blog_Senac/static/js/main.fd6e6b4a.js",
+    "main.js": "/Blog_Senac/static/js/main.5f87d760.js",
     "static/media/modal-overlay.png": "/Blog_Senac/static/media/modal-overlay.81d220992c1aa93e3559.png",
     "static/media/cosmo-backgorund.png": "/Blog_Senac/static/media/cosmo-backgorund.fcef13d95946d3cc0ae0.png",
     "index.html": "/Blog_Senac/index.html",
     "main.6c1ac0f1.css.map": "/Blog_Senac/static/css/main.6c1ac0f1.css.map",
-    "main.fd6e6b4a.js.map": "/Blog_Senac/static/js/main.fd6e6b4a.js.map"
+    "main.5f87d760.js.map": "/Blog_Senac/static/js/main.5f87d760.js.map"
   },
   "entrypoints": [
     "static/css/main.6c1ac0f1.css",
-    "static/js/main.fd6e6b4a.js"
+    "static/js/main.5f87d760.js"
   ]
 }
