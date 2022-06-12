@@ -1,8 +1,8 @@
 import { gql } from "@apollo/client/core";
 
-const GET_LOGIN = gql`
-  query GET_LOGIN($name: String!) {
-    users(where: {name: {_eq: $name}}) {
+export const GET_LOGIN = gql`
+  query GET_LOGIN($email: String!) {
+    users(where: {email: {_eq: $email}}) {
       email
       id
       name

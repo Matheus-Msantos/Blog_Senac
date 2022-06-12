@@ -1,0 +1,34 @@
+.cosmo-modal-overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: url('../../assets/image/modal-overlay.png') no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cosmo-modal-overlay.active {
+  display: block;
+}
+
+.cosmo-auth-section--container.fixed {
+  display: none;
+  position: fixed;
+  height: 517px;
+  z-index: 2;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cosmo-auth-section--container.fixed.active {
+  display: block;
+}

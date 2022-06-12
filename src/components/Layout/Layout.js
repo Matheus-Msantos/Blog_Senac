@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import Modal from "../ModalPosts/Modal";
 import { Link } from "react-router-dom";
+import { UserContext } from "../../context/User";
 
 import "./Layout.css";
 
 function Layout({ children }) {
+
+  const { currentUser } = useContext(UserContext);
+
   return (
     <>
       <header>
@@ -14,18 +19,19 @@ function Layout({ children }) {
         <h1 className="consmo-header-title">Cosmonaut</h1>
 
         <div className="cosmo-header-buttons_container">
-          <button className="cosmo-header-button">
-            <i className="fa-solid fa-rocket"></i>
-            LANÇAR <span className="cosmo-header-button--blue">POSTS</span>
-          </button>
+          <Modal />
 
-          <button className="cosmo-header-button">
-            <Link to="/login">
-              <i className="fa-solid fa-user-astronaut"></i>
-              OLÁ,<span className="cosmo-header-button--blue">MATHEUS</span>
-            </Link>
-          </button>
+          {currentUser ?
 
+            <button className="cosmo-header-button">
+
+              <Link to="/login">
+                <i className="fa-solid fa-user-astronaut"></i>
+                OLÁ,<span className="cosmo-header-button--blue">{currentUser}</span>
+              </Link>
+            </button>
+            : ''
+          }
         </div>
       </header>
 

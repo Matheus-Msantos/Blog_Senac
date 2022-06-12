@@ -43,6 +43,7 @@ header {
 
 .cosmo-header-button a {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .cosmo-header-button--blue {
