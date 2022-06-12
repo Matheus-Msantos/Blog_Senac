@@ -1,0 +1,181 @@
+main {
+  margin-top: 57px;
+  padding: 0 44px;
+}
+
+.cosmo-home-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  text-shadow: 0px 13px 4px rgba(255, 255, 255, 0.25);
+}
+
+.cosmo-home-title--blue {
+  color: var(--blue);
+  margin-left: 8px;
+  text-shadow: 0px 13px 4px rgba(255, 255, 255, 0.25);
+  font-weight: 700;
+}
+
+.cosmo-home-section--container {
+  margin: 0 25px;
+  margin-top: 37px;
+}
+
+.cosmo-home-box {
+  position: relative;
+  width: fit-content;
+}
+
+.cosmo-home-box img {
+  max-width: 263px;
+}
+
+.cosmo-home-box-content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 9px;
+  background: rgba(0, 0, 0, 0.37);
+}
+
+.cosmo-home-box-category {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.cosmo-home-box-title {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cosmo-home-box-button {
+  display: block;
+  width: 70px;
+  height: 30px;
+  color: var(--white);
+  font-size: 10px;
+  text-transform: uppercase;
+  background: var(--blue);
+  border: 0;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.cosmo-home-box:hover .cosmo-home-box-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.cosmo-auth-title--main {
+  color: var(--white);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+.cosmo-auth-title--main_blue {
+  color: var(--blue);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+.cosmo-auth-section--container {
+  width: 500px;
+  background: var(--grey);
+  margin: 0 auto;
+  margin-top: 71px;
+  padding: 0 86px;
+  padding-top: 16px;
+  padding-bottom: 63px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 21px -2px #4682B4;
+}
+
+.cosmo-auth-section-img {
+  width: 87px;
+  height: 79px;
+  background: url('../assets/image/cosmo-logo.png');
+  background-size: 100%;
+  background-blend-mode: darken;
+  background-color: var(--grey);
+  margin: 0 auto;
+}
+
+.cosmo-auth-section-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cosmo-auth-section-title--blue {
+  display: block;
+  color: var(--blue);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 13px 4px rgba(70, 130, 180, 0.25);
+}
+
+.cosmo-auth-form {
+  margin-top: 15px;
+}
+
+.cosmo-auth-form-label {
+  display: block;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.cosmo-auth-form-input {
+  width: 100%;
+  height: 36px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--black);
+  color: var(--white);
+  padding-left: 15px;
+  margin-bottom: 26px;
+  outline: none;
+}
+
+.cosmo-auth-form-text {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.cosmo-auth-form-text--blue {
+  color: var(--blue);
+  margin-left: 3px;
+}
+
+.cosmo-auth-form-button {
+  display: block;
+  width: 124px;
+  height: 33px;
+  background: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+}

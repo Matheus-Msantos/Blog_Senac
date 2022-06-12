@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 23px;
+  background: var(--grey);
+  box-shadow: 0px 2px 4px #4682B4;
+}
+
+.cosmo-header-logo {
+  width: 57px;
+  height: 57px;
+  background: url('../../assets/image/cosmo-logo.png');
+  background-size: 100%;
+  background-blend-mode: darken;
+  background-color: var(--grey);
+}
+
+.consmo-header-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.cosmo-header-buttons_container {
+  display: flex;
+}
+
+.cosmo-header-button {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  background: transparent;
+  border: 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.cosmo-header-button i {
+  margin-right: 8px;
+}
+
+.cosmo-header-button a {
+  text-decoration: none;
+}
+
+.cosmo-header-button--blue {
+  color: var(--blue);
+  margin-left: 3px;
+}
+
+.cosmo-header-button:hover i {
+  color: var(--blue);
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 30px;
+}
+
+.cosmo-footer-text-contianer p {
+  text-align: center;
+  color: var(--white);
+
+  font-weight: 700;
+}
+
+.cosmo-footer-text--blue {
+  color: var(--blue);
+}

@@ -4,6 +4,8 @@ import HomePage from "./Pages/Home";
 import LoginPage from "./Pages/Login";
 import RegisterPage from "./Pages/Register";
 
+import './App.css';
+
 function App() {
   return (
     <BrowserRouter>
